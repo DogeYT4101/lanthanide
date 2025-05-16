@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manual</title>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: Raleway;
+            background-color: aliceblue;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-image: url(https://i.ibb.co/d0cGrXQR/Design-sem-nome-4.png);
+        }
+        #intro {
+            margin-top: 70px;
+            text-align: center;
+            animation: FadeIn 2s forwards;
+            margin: 5px;
+        }
+
+        button {
+            border: none;
+            background-color: rgb(127, 197, 255);
+            padding: 10px;
+            transition: all 0.3s ease;
+            border-radius: 10px;
+            cursor: pointer;
+            font-family: Raleway;
+        }
+         button:hover {
+            padding: 12px;
+            box-shadow: 4px 4px 10px rgb(117, 117, 117);
+        }
+
+    </style>
+</head>
+<body>
+    <button onclick="location.href='index.html'"> <strong> Voltar </strong> </button>
+    <div id="intro"> 
+        <h1> Lanthanide - Manual</h1>
+        <h3> <strong> COMO JOGAR: </strong></h3>
+        <li> Posicione o tabuleiro do jogo na mesa; </li>
+        <li> Embaralhe as cartas e coloque elas empilhadas na mesa com a face onde possui as informações virada para baixo, sem que os jogadores possam ver. </li>
+        <li> Posicione os peões na casa 1. O jogador mais novo deve começar a partida.</li>
+        <li> O valor do dado representará quantas casas o jogador precisa andar. </li>
+        <li> O primeiro jogador (ou cientista, nesse caso) a sair do laboratório ganha.</li>
+        <h3> <strong> TIPOS DE CASA: </strong></h3>
+        <li> <strong>Casa padrão:</strong> Uma casa normal, não concede nenhum efeito especial.</li>
+        <li> <strong>Casa desafio:</strong> O jogador que cair nessa casa deverá puxar do baralho uma carta desafio. A carta desafio terá uma pergunta que, se respondida corretamente, o jogador avança 3 casas. </li>
+        <li> <strong>Casa armadilha:</strong> Uma poça de água entrou em contato com os fios elétricos do laboratório, fazendo com que uma simples poça de água se torne algo letal. O jogador que cair nessa casa terá que voltar mais 4 casas. </li>
+        <li> <strong>Casa com portal:</strong> Um dos cientistas que trabalhava com você estava testando portais. Bem, não deu muito certo. Se um jogador cair na casa com portal, ele pode girar o dado de novo. Porém, se cair no dado o número 2, 4 ou 6, o jogador volta o número de casas que caiu no dado.</li>
+    </div>
+</body>
+</html>
